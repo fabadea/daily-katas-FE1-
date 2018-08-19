@@ -1,6 +1,6 @@
 // Please do not change the name of this function
-function rgbaModifier (str) {
+const rgbaModifier = (rgbaStr, percent, opacity) => {
   // Your code here
-};
+}
 
-module.exports = {rgbaModifier};
+module.exports = { rgbaModifier }

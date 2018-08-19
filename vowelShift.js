@@ -1,6 +1,6 @@
 // Please do not change the name of this function
-function vowelShift (str) {
+const vowelShift = (str) => {
   // Your code here
-};
+}
 
-module.exports = {vowelShift};
+module.exports = { vowelShift }

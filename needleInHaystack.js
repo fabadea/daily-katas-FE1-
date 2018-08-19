@@ -1,6 +1,6 @@
 // Please do not change the name of this function
-function needleInHaystack (str) {
+const needleInHaystack = (haystack, needle) => {
   // Your code here
-};
+}
 
-module.exports = {needleInHaystack};
+module.exports = { needleInHaystack }

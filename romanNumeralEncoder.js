@@ -1,6 +1,6 @@
 // Please do not change the name of this function
-function romanNumeralEncoder (str) {
+const romanNumeralEncoder = (num) => {
   // Your code here
-};
+}
 
-module.exports = {romanNumeralEncoder};
+module.exports = { romanNumeralEncoder }

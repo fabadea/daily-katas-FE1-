@@ -1,6 +1,6 @@
 // Please do not change the name of this function
-function findPartner (str) {
+const findPartner = (students, directions) => {
   // Your code here
-};
+}
 
-module.exports = {findPartner};
+module.exports = { findPartner }

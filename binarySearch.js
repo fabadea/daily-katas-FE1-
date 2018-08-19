@@ -1,6 +1,6 @@
 // Please do not change the name of this function
-function binarySearch (str) {
+const binarySearch = (arr) => {
   // Your code here
-};
+}
 
-module.exports = {binarySearch};
+module.exports = { binarySearch }

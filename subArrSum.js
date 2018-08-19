@@ -1,6 +1,6 @@
 // Please do not change the name of this function
-function subArrSum (str) {
+const subArrSum = (str, shift) => {
   // Your code here
-};
+}
 
-module.exports = {subArrSum};
+module.exports = { subArrSum }
