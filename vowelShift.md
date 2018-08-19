@@ -9,36 +9,26 @@ Given a string of any length and a number n, shift every vowel in the string n v
 You can use these examples to start building up your test suite
 
 ```javascript
-
 vowelShift('foo', 1);
   --> 'foo'
-
 ```
 
 ```javascript
-
 vowelShift('hello', 1);
   --> 'holle'
-
 ```
 
 ```javascript
-
 vowelShift('hello child', 1);
   --> 'hille chold'
-
 ```
 
 ```javascript
-
 vowelShift('star nosed mole', 2);
   --> 'stor nesad mole'
-
 ```
 
 ```javascript
-
 vowelShift('funnily enough', 4);
   --> 'finnely onuugh'
-
 ```

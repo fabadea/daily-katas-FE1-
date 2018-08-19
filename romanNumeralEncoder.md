@@ -1,4 +1,5 @@
 _NOTE: best viewed in preview_
+
 ## Encode Roman numerals
 
 The challenge is to implement a function which return a Roman Numeral string when passed a number of seconds
@@ -8,39 +9,38 @@ The challenge is to implement a function which return a Roman Numeral string whe
 You can use these examples to start building up your test suite
 
 ```javascript
-    romanNumeralEncoder(1);
-    // -> "I"
+romanNumeralEncoder(1)
+// -> "I"
 ```
 
 ```javascript
-    romanNumeralEncoder(2);
-    // -> "II"
+romanNumeralEncoder(2)
+// -> "II"
 ```
 
 ```javascript
-    romanNumeralEncoder(10);
-    // -> "X"
+romanNumeralEncoder(10)
+// -> "X"
 ```
 
 ```javascript
-    romanNumeralEncoder(17);
-    // -> "XVII"
-```
-
-
-```javascript
-    romanNumeralEncoder(60);
-    // -> "LX"
+romanNumeralEncoder(17)
+// -> "XVII"
 ```
 
 ```javascript
-    romanNumeralEncoder(75);
-    // -> "LXXV"
+romanNumeralEncoder(60)
+// -> "LX"
 ```
 
 ```javascript
-    romanNumeralEncoder(91);
-    // -> "XCI"
+romanNumeralEncoder(75)
+// -> "LXXV"
+```
+
+```javascript
+romanNumeralEncoder(91)
+// -> "XCI"
 ```
 
 ##### Roman Numeral Table

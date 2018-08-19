@@ -20,7 +20,6 @@ If the array is empty or there are no repeated elements, return:
 
 ##### examples
 
-
 You can use these examples to start building up your test suite
 
 ```javascript
