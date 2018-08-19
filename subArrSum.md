@@ -1,4 +1,4 @@
-## SUB ARRAY SUM ##
+## SUB ARRAY SUM
 
 The maximum sum subarray problem consists of finding the maximum sum of any sequence of consecutive numbers in an array or list of integers.
 
@@ -8,14 +8,13 @@ If a list contains positive and negative numbers then you will need to work out 
 
 An empty list is considered to have zero greatest sum. Note that the empty list or array is also a valid sublist/subarray.
 
-
-## Examples ##
+## Examples
 
 maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])
-    // returns 6 which is the sum of: [4, -1, 2, 1];
+// returns 6 which is the sum of: [4, -1, 2, 1];
 
 maxSequence([9, 8, 7, -3, 6, 5, 4, -3, 2, 1])
-    // should be 36 which is the sum of: [9, 8, 7, -3, 6, 5, 4];
+// should be 36 which is the sum of: [9, 8, 7, -3, 6, 5, 4];
 
 maxSequence([5, -6, 2, 9, -4, -3, 8, -10, 20])
-    // should be 22 which is the sum of: [5, -6, 2, 9, -4, -3, 8, -10, 20];
+// should be 32 which is the sum of: [2, 9, -4, -3, 8, -10, 20];
