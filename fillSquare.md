@@ -4,14 +4,10 @@ The function fill square should take an array of arrays and should complete thes
 
 ## Examples
 
-Here, for example, to complete a 3 * 3 square we need to fill up the last two sub arrays with `null`.
+Here, for example, to complete a 3 \* 3 square we need to fill up the last two sub arrays with `null`.
 
 ```javascript
-const square = [
-  [1, 2, 3],
-  [1, 2],
-  [1]
-];
+const square = [[1, 2, 3], [1, 2], [1]]
 
 fillSquare(square)
 /*
@@ -23,14 +19,10 @@ fillSquare(square)
 */
 ```
 
-In this example, we will need to create a 6 * 6 square since the longest row is 6 long, so we also need additional arrays at the bottom of the matrix.
+In this example, we will need to create a 6 \* 6 square since the longest row is 6 long, so we also need additional arrays at the bottom of the matrix.
 
 ```javascript
-const square = [
-  [1, 2, 3],
-  [1, 2, 3, 4, 5, 6],
-  [1]
-];
+const square = [[1, 2, 3], [1, 2, 3, 4, 5, 6], [1]]
 
 fillSquare(square)
 /*
@@ -45,16 +37,8 @@ fillSquare(square)
 */
 ```
 
-
 ```javascript
-const square = [
-  [1, 2, 3],
-  [1, 2, 3],
-  [1],
-  [],
-  [1, 2, 3],
-  [1]
-];
+const square = [[1, 2, 3], [1, 2, 3], [1], [], [1, 2, 3], [1]]
 
 fillSquare(square)
 /*

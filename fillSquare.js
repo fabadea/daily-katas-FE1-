@@ -1,6 +1,6 @@
 // Please do not change the name of this function
-function fillSquare (str) {
+const fillSquare = (arr) => {
   // Your code here
-};
+}
 
-module.exports = {fillSquare};
+module.exports = { fillSquare }
