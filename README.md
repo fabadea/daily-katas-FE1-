@@ -14,7 +14,7 @@ As you can see here, there are a few differences:
 - We have used a slightly different file / folder structure for our test files.
 - The test script in our `package.json` reads `jest --watch`.
   - Jest will automatically look for any files in a `spec` or `__tests__` directory, or have `*.spec.js` / `*.test.js` in their file names and run them.
-  - The `--watch` flag in the `test` script means that once you run `npm test`, Jest will run all tests related to changed files (based on what is not committed).
+  - The `--watch` flag in the `test` script means that once you run `npm test`, Jest will run all tests related to changed files (based on what is not committed). You can remove this if you want to run tests on command.
 - To exit Jest in the command line hit `q`.
 - To run only specific tests press `p` and enter a regex pattern that your test file will match.
 - There is no need to require `expect` into test files as jest provides this.
