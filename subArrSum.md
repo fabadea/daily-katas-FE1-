@@ -17,4 +17,4 @@ maxSequence([9, 8, 7, -3, 6, 5, 4, -3, 2, 1])
 // should be 36 which is the sum of: [9, 8, 7, -3, 6, 5, 4];
 
 maxSequence([5, -6, 2, 9, -4, -3, 8, -10, 20])
-// should be 32 which is the sum of: [2, 9, -4, -3, 8, -10, 20];
+// should be 22 which is the sum of: [2, 9, -4, -3, 8, -10, 20];
