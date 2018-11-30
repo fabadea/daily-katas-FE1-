@@ -4,9 +4,10 @@ The maximum sum subarray problem consists of finding the maximum sum of any sequ
 
 When the list is made up of only positive numbers then the maximum sum is simply the sum of the whole array. If the list is made up of only negative numbers, return 0 instead.
 
-If a list contains positive and negative numbers then you will need to work out which subsequence can be added together to give the highest total.
-
 An empty list is considered to have zero greatest sum. Note that the empty list or array is also a valid sublist/subarray.
+
+
+If a list contains positive and negative numbers then you will need to work out which subsequence can be added together to give the highest total. (note: this may include only a small section of the numbers in the initial array)
 
 ## Examples
 
