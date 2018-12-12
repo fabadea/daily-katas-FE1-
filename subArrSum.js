@@ -1,5 +1,5 @@
 // Please do not change the name of this function
-const subArrSum = (str, shift) => {
+const subArrSum = (array) => {
   // Your code here
 }
 
