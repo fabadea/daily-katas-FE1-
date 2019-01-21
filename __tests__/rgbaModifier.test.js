@@ -1,6 +1,5 @@
 const { rgbaModifier } = require('../rgbaModifier')
 
-
 describe('rgbaModifier()', function () {
   it('returns unchanged string if only first argument given', () => {
     expect(rgbaModifier('rgba(100,100,100,0.6)')).toEqual('rgba(100,100,100,0.6)');

@@ -37,6 +37,4 @@ const parseHexInt = (str) => {
   // return ans;
 }
 
-
-
 module.exports = { parseHexInt }

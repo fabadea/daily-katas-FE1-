@@ -1,6 +1,5 @@
 const { needleInHaystack } = require('../needleInHaystack')
 
-
 describe('needleInHaystack()', function () {
   const haystack = {
     name: 'Northcoders',
@@ -83,7 +82,7 @@ describe('needleInHaystack()', function () {
       reviews: {
         chris: 'I love Northcoders',
         james: 'It is awesome!'
-      },
+      }
     };
     expect(needleInHaystack(haystack1, 'Northcoders')).toEqual(['address.office', 'name', 'reviews.chris']);
     expect(needleInHaystack(haystack, 'M40')).toEqual(['contactDetails.address.postcode']);

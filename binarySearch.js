@@ -2,7 +2,6 @@
 const binarySearch = (arr, val
   //  ,start = 0, stop = arr.length - 1
 ) => {
-
   if (val > arr[arr.length - 1] || val < arr[0]) return -1;
 
   let start = 0;
@@ -31,7 +30,6 @@ const binarySearch = (arr, val
   //   }
   // }
   // return -1;
-
 }
 
 module.exports = { binarySearch }

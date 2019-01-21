@@ -1,6 +1,5 @@
 // Please do not change the name of this function
 const findMostRepeated = (arr) => {
-
   if (arr.length === [...new Set(arr)].length) return { elements: [], repeats: null };
   const amountObj = [...new Set(arr)].reduce((accObj, curr) => {
     accObj[curr] = 0;

@@ -30,7 +30,6 @@ const romanNumeralEncoder = (num) => {
   return arabToRom[decNum] + arabToRom[reminder10];
 }
 
-
 // const romanNumeralEncoder = (num) => {
 //   if (typeof num !== 'number') return '';
 //   const romToArab = {
@@ -54,6 +53,5 @@ const romanNumeralEncoder = (num) => {
 //   }
 //   return romanNum;
 // };
-
 
 module.exports = { romanNumeralEncoder }

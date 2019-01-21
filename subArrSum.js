@@ -1,6 +1,6 @@
 // Please do not change the name of this function
 
-function subArrSum(arr) {
+function subArrSum (arr) {
   let maxTotal = 0;
   let currentTotal = 0;
 

@@ -1,20 +1,18 @@
 // Please do not change the name of this function
 
-
 const rgbaModifier = (rgbaStr, percent, opacity) => {
-  let rgbaArr = rgbaStr.slice(5, rgbaStr.length - 1).split(",")
+  let rgbaArr = rgbaStr.slice(5, rgbaStr.length - 1).split(',')
   if (!percent && !opacity) { return rgbaStr }
   if (percent || percent === 0) {
     let r = Math.round(+rgbaArr[0] + +rgbaArr[0] * percent / 100)
     let g = Math.round(+rgbaArr[1] + +rgbaArr[1] * percent / 100)
     let b = Math.round(+rgbaArr[2] + +rgbaArr[2] * percent / 100)
-    let a = opacity ? opacity : +rgbaArr[3]
+    let a = opacity || +rgbaArr[3]
     if (r > 255) r = 255
     if (g > 255) g = 255
     if (b > 255) b = 255
 
     return `rgba(${r},${g},${b},${a})`
-
   }
 
   // let count = 0;
@@ -33,11 +31,6 @@ const rgbaModifier = (rgbaStr, percent, opacity) => {
   // });
 
   // return rgbaStr;
-
-
-
 }
-
-
 
 module.exports = { rgbaModifier }

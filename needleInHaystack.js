@@ -11,8 +11,7 @@ const needleInHaystack = (haystack, needle) => {
         needlePath.push(prop);
         needlePath = needlePath.join('.');
         result.push(needlePath);
-      }
-      else if (typeof haystack[prop] === 'object') {
+      } else if (typeof haystack[prop] === 'object') {
         path.push(prop);
         findNeedle(haystack[prop], str);
         path.pop();
@@ -24,10 +23,8 @@ const needleInHaystack = (haystack, needle) => {
 
   return result.sort();
 
-
   //   const calling = anotherOne(haystack, needle)
   //   return calling === '' ? [] : calling.split(' ').slice(0, -1).sort()
-
 
   // const anotherOne = (haystack, needle) => {
   //   if (typeof haystack === 'string') {
@@ -51,6 +48,5 @@ const needleInHaystack = (haystack, needle) => {
   //   }
   //   return anAns;
   // }
-
 }
 module.exports = { needleInHaystack }

@@ -16,7 +16,6 @@ const vowelShift = (str, n) => {
     }
   }
   return str
-
 }
 
 module.exports = { vowelShift }

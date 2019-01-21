@@ -1,6 +1,5 @@
 const { fillSquare } = require('../fillSquare')
 
-
 describe('fillSquare', function () {
   it('returns the same array if it is a square', () => {
     expect(fillSquare([[1]])).toEqual([[1]]);
